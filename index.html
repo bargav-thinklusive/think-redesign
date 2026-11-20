@@ -1,0 +1,407 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Thinklusive — Home</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bebas+Neue&amp;family=Plus+Jakarta+Sans:wght@400;500;600;700;800&amp;display=swap">
+<style>
+body{margin:0;background:#063447}
+a{color:#21D6EB}a:hover{color:#7BE8F4}
+.nav-links{display:flex}
+.nav-menu{display:none}
+.dd-panel{display:none;position:absolute;top:100%;left:50%;transform:translateX(-50%);padding-top:10px;z-index:50}
+.dd:hover .dd-panel,.dd:focus-within .dd-panel{display:block}
+.dd-item:hover{background:#F3F7F8}
+.dd-chev{transition:transform .15s}
+.dd:hover .dd-chev{transform:rotate(180deg)}
+@media (max-width:860px){.nav-links{display:none}.nav-menu{display:flex}}
+</style>
+</head>
+<body>
+<div style="font-family: 'Plus Jakarta Sans', system-ui, sans-serif; color: #FFFFFF; background: #063447; width: 100%">
+
+  <!-- Floating pill nav -->
+  <div style="padding: 20px 20px 0">
+    <header style="max-width: 1280px; margin: 0 auto; background: rgba(255,255,255,0.07); border: 1px solid rgba(255,255,255,0.12); border-radius: 999px; padding: 10px 10px 10px 26px; display: flex; align-items: center; justify-content: space-between; gap: 20px">
+      <a href="#top" aria-label="Thinklusive home" style="display: flex; align-items: center; text-decoration: none">
+        <img src="images/thinklusive-on-dark.svg" alt="Thinklusive" style="height: 36px; width: auto; display: block">
+      </a>
+      <nav class="nav-links" aria-label="Main" style="align-items: center; gap: 30px">
+        <div class="dd" style="position: relative">
+          <a href="services.html" style="display: flex; align-items: center; gap: 6px; color: rgba(255,255,255,0.88); text-decoration: none; font-size: 15px; font-weight: 600; padding: 12px 0">Services<svg class="dd-chev" width="12" height="12" viewBox="0 0 12 12" aria-hidden="true"><path d="M3 4.5l3 3 3-3" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"></path></svg></a>
+          <div class="dd-panel">
+            <div style="width: 880px; background: #FFFFFF; color: #063447; border-radius: 24px; padding: 24px; box-shadow: 0 24px 60px rgba(2,24,34,0.3); display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 8px 20px">
+              <div style="display: flex; flex-direction: column; gap: 2px">
+                <a href="services.html#data" style="font-size: 12px; font-weight: 800; letter-spacing: 0.14em; text-transform: uppercase; color: #0B6E7A; text-decoration: none; padding: 8px 12px">AI &amp; Data</a>
+                <a class="dd-item" href="services.html#ai-solutions" style="display: flex; flex-direction: column; gap: 2px; padding: 10px 12px; border-radius: 14px; color: #063447; text-decoration: none"><span style="font-size: 15px; font-weight: 800">AI Solutions</span><span style="font-size: 13px; line-height: 1.45; color: #56676D">Production AI, governed from day one</span></a>
+                <a class="dd-item" href="service-data-warehousing.html" style="display: flex; flex-direction: column; gap: 2px; padding: 10px 12px; border-radius: 14px; color: #063447; text-decoration: none"><span style="font-size: 15px; font-weight: 800">Data Warehousing</span><span style="font-size: 13px; line-height: 1.45; color: #56676D">One trusted foundation for every source</span></a>
+                <a class="dd-item" href="service-business-intelligence.html" style="display: flex; flex-direction: column; gap: 2px; padding: 10px 12px; border-radius: 14px; color: #063447; text-decoration: none"><span style="font-size: 15px; font-weight: 800">Business Intelligence</span><span style="font-size: 13px; line-height: 1.45; color: #56676D">The right answer at the right time</span></a>
+                <a class="dd-item" href="service-analytics.html" style="display: flex; flex-direction: column; gap: 2px; padding: 10px 12px; border-radius: 14px; color: #063447; text-decoration: none"><span style="font-size: 15px; font-weight: 800">Analytics</span><span style="font-size: 13px; line-height: 1.45; color: #56676D">Dashboards built once, used anywhere</span></a>
+              </div>
+              <div style="display: flex; flex-direction: column; gap: 2px">
+                <a href="services.html#apps" style="font-size: 12px; font-weight: 800; letter-spacing: 0.14em; text-transform: uppercase; color: #0B6E7A; text-decoration: none; padding: 8px 12px">Applications &amp; Commerce</a>
+                <a class="dd-item" href="service-application-development.html" style="display: flex; flex-direction: column; gap: 2px; padding: 10px 12px; border-radius: 14px; color: #063447; text-decoration: none"><span style="font-size: 15px; font-weight: 800">Application Development</span><span style="font-size: 13px; line-height: 1.45; color: #56676D">Custom software that ships on time</span></a>
+                <a class="dd-item" href="service-mobile-applications.html" style="display: flex; flex-direction: column; gap: 2px; padding: 10px 12px; border-radius: 14px; color: #063447; text-decoration: none"><span style="font-size: 15px; font-weight: 800">Mobile Applications</span><span style="font-size: 13px; line-height: 1.45; color: #56676D">iOS and Android for teams and customers</span></a>
+                <a class="dd-item" href="service-ecommerce.html" style="display: flex; flex-direction: column; gap: 2px; padding: 10px 12px; border-radius: 14px; color: #063447; text-decoration: none"><span style="font-size: 15px; font-weight: 800">E-Commerce Solutions</span><span style="font-size: 13px; line-height: 1.45; color: #56676D">On-brand commerce at every touchpoint</span></a>
+              </div>
+              <div style="display: flex; flex-direction: column; gap: 2px">
+                <a href="services.html#infra" style="font-size: 12px; font-weight: 800; letter-spacing: 0.14em; text-transform: uppercase; color: #0B6E7A; text-decoration: none; padding: 8px 12px">Infrastructure &amp; Platforms</a>
+                <a class="dd-item" href="service-networking.html" style="display: flex; flex-direction: column; gap: 2px; padding: 10px 12px; border-radius: 14px; color: #063447; text-decoration: none"><span style="font-size: 15px; font-weight: 800">Networking &amp; Security</span><span style="font-size: 13px; line-height: 1.45; color: #56676D">Secure networks engineered for uptime</span></a>
+                <a class="dd-item" href="service-storage-management.html" style="display: flex; flex-direction: column; gap: 2px; padding: 10px 12px; border-radius: 14px; color: #063447; text-decoration: none"><span style="font-size: 15px; font-weight: 800">Storage Management</span><span style="font-size: 13px; line-height: 1.45; color: #56676D">Protect and retain data by its value</span></a>
+                <a class="dd-item" href="services.html#automation-integration" style="display: flex; flex-direction: column; gap: 2px; padding: 10px 12px; border-radius: 14px; color: #063447; text-decoration: none"><span style="font-size: 15px; font-weight: 800">Automation &amp; Integration</span><span style="font-size: 13px; line-height: 1.45; color: #56676D">ServiceNow, Boomi and API workflows</span></a>
+              </div>
+              <div style="grid-column: 1 / -1; margin-top: 8px; padding: 14px 12px 0; border-top: 1px solid #DCE5E8; display: flex; flex-wrap: wrap; justify-content: space-between; gap: 12px">
+                <a href="staffing.html" style="font-size: 14px; font-weight: 700; color: #063447; text-decoration: none">Need people, not a project? <span style="color: #0B6E7A">IT Staffing →</span></a>
+                <a href="services.html" style="font-size: 14px; font-weight: 800; color: #0B6E7A; text-decoration: none">All services →</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="dd" style="position: relative">
+          <a href="industries.html" style="display: flex; align-items: center; gap: 6px; color: rgba(255,255,255,0.88); text-decoration: none; font-size: 15px; font-weight: 600; padding: 12px 0">Industries<svg class="dd-chev" width="12" height="12" viewBox="0 0 12 12" aria-hidden="true"><path d="M3 4.5l3 3 3-3" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"></path></svg></a>
+          <div class="dd-panel">
+            <div style="width: 600px; background: #FFFFFF; color: #063447; border-radius: 24px; padding: 20px; box-shadow: 0 24px 60px rgba(2,24,34,0.3); display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 4px 12px">
+              <a class="dd-item" href="industries.html#healthcare" style="display: flex; gap: 14px; align-items: flex-start; padding: 12px; border-radius: 14px; color: #063447; text-decoration: none"><span style="width: 40px; height: 40px; flex: none; border-radius: 12px; background: #E3F4F6; display: flex; align-items: center; justify-content: center"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#0B6E7A" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 20s-7-4.4-7-10a4 4 0 0 1 7-2.6A4 4 0 0 1 19 10c0 5.6-7 10-7 10z"></path></svg></span><span style="display: flex; flex-direction: column; gap: 2px"><span style="font-size: 15px; font-weight: 800">Healthcare</span><span style="font-size: 13px; line-height: 1.45; color: #56676D">Insight without disrupting patient care</span></span></a>
+              <a class="dd-item" href="industries.html#finance" style="display: flex; gap: 14px; align-items: flex-start; padding: 12px; border-radius: 14px; color: #063447; text-decoration: none"><span style="width: 40px; height: 40px; flex: none; border-radius: 12px; background: #E3F4F6; display: flex; align-items: center; justify-content: center"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#0B6E7A" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 10l9-6 9 6M5 10v8M9.5 10v8M14.5 10v8M19 10v8M3 20h18"></path></svg></span><span style="display: flex; flex-direction: column; gap: 2px"><span style="font-size: 15px; font-weight: 800">Finance</span><span style="font-size: 13px; line-height: 1.45; color: #56676D">Modernize core systems, zero room for error</span></span></a>
+              <a class="dd-item" href="industries.html#insurance" style="display: flex; gap: 14px; align-items: flex-start; padding: 12px; border-radius: 14px; color: #063447; text-decoration: none"><span style="width: 40px; height: 40px; flex: none; border-radius: 12px; background: #E3F4F6; display: flex; align-items: center; justify-content: center"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#0B6E7A" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3l7 3v6c0 4.5-3 7.5-7 9-4-1.5-7-4.5-7-9V6z"></path><path d="M9 12l2 2 4-4"></path></svg></span><span style="display: flex; flex-direction: column; gap: 2px"><span style="font-size: 15px; font-weight: 800">Insurance</span><span style="font-size: 13px; line-height: 1.45; color: #56676D">Faster claims, clearer risk</span></span></a>
+              <a class="dd-item" href="industries.html#ecommerce" style="display: flex; gap: 14px; align-items: flex-start; padding: 12px; border-radius: 14px; color: #063447; text-decoration: none"><span style="width: 40px; height: 40px; flex: none; border-radius: 12px; background: #E3F4F6; display: flex; align-items: center; justify-content: center"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#0B6E7A" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 7h12l-1 13H7z"></path><path d="M9 7a3 3 0 0 1 6 0"></path></svg></span><span style="display: flex; flex-direction: column; gap: 2px"><span style="font-size: 15px; font-weight: 800">E-Commerce</span><span style="font-size: 13px; line-height: 1.45; color: #56676D">One brand across every touchpoint</span></span></a>
+              <div style="grid-column: 1 / -1; margin-top: 4px; padding: 14px 12px 4px; border-top: 1px solid #DCE5E8; display: flex; justify-content: flex-end">
+                <a href="industries.html" style="font-size: 14px; font-weight: 800; color: #0B6E7A; text-decoration: none">All industries →</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <a href="staffing.html" style="color: rgba(255,255,255,0.88); text-decoration: none; font-size: 15px; font-weight: 600">Staffing</a>
+        <a href="company.html" style="color: rgba(255,255,255,0.88); text-decoration: none; font-size: 15px; font-weight: 600">Company</a>
+        <a href="careers.html" style="color: rgba(255,255,255,0.88); text-decoration: none; font-size: 15px; font-weight: 600">Careers</a>
+        <a href="contact.html" style="color: #063447; background: #21D6EB; text-decoration: none; font-size: 15px; font-weight: 700; padding: 13px 22px; border-radius: 999px">Contact us</a>
+      </nav>
+      <button class="nav-menu" type="button" aria-label="Open menu" style="width: 44px; height: 44px; align-items: center; justify-content: center; background: transparent; border: 1px solid rgba(255,255,255,0.24); border-radius: 999px; color: #FFFFFF; cursor: pointer">
+        <svg width="20" height="20" viewBox="0 0 20 20" aria-hidden="true"><path d="M3 6h14M3 10h14M3 14h14" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"></path></svg>
+      </button>
+    </header>
+  </div>
+
+  <!-- Hero (dark) -->
+  <section id="top" style="position: relative; overflow: hidden">
+    <svg aria-hidden="true" width="720" height="720" viewBox="0 0 720 720" style="position: absolute; right: -120px; top: 20px; opacity: 0.6">
+      <g fill="none" stroke="#21D6EB" stroke-opacity="0.35" stroke-width="1">
+        <path d="M120 180L330 90L560 210L640 430L470 610L220 560L90 380Z"></path>
+        <path d="M330 90L360 330L560 210M360 330L640 430M360 330L470 610M360 330L220 560M360 330L90 380M360 330L120 180"></path>
+      </g>
+      <g fill="#21D6EB"><circle cx="120" cy="180" r="5"></circle><circle cx="330" cy="90" r="5"></circle><circle cx="560" cy="210" r="5"></circle><circle cx="640" cy="430" r="5"></circle><circle cx="470" cy="610" r="5"></circle><circle cx="220" cy="560" r="5"></circle><circle cx="90" cy="380" r="5"></circle><circle cx="360" cy="330" r="9"></circle></g>
+    </svg>
+    <div style="position: relative; max-width: 1280px; margin: 0 auto; padding: 96px 24px 64px; display: flex; flex-direction: column; gap: 32px">
+      <span style="font-size: 13px; font-weight: 700; letter-spacing: 0.14em; text-transform: uppercase; color: #21D6EB">AI · Data · Engineering · Staffing</span>
+      <h1 style="margin: 0; font-family: 'Bebas Neue', 'Plus Jakarta Sans', sans-serif; font-weight: 400; font-size: clamp(76px, 11vw, 168px); line-height: 0.88; letter-spacing: 0.005em; max-width: 1000px">Technology<br>built for<br><span style="color: #21D6EB">everyone.</span></h1>
+      <p style="margin: 0; font-size: 20px; line-height: 1.6; color: rgba(255,255,255,0.8); max-width: 600px">Thinklusive turns scattered data, aging systems and stalled AI pilots into production systems your teams actually use — secure by design, accessible to everyone, and staffed by people who stay through support.</p>
+      <div style="display: flex; flex-wrap: wrap; gap: 14px">
+        <a href="contact.html" style="display: flex; align-items: center; gap: 10px; background: #21D6EB; color: #063447; text-decoration: none; font-size: 16px; font-weight: 700; padding: 17px 28px; border-radius: 999px">Let's get to work<svg width="16" height="16" viewBox="0 0 16 16" aria-hidden="true"><path d="M3 8h10M9 4l4 4-4 4" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path></svg></a>
+        <a href="staffing.html" style="color: #FFFFFF; text-decoration: none; font-size: 16px; font-weight: 600; padding: 16px 28px; border-radius: 999px; border: 1px solid rgba(255,255,255,0.34)">Hire IT talent</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Stats (dark) -->
+  <section aria-label="Thinklusive in numbers">
+    <div style="max-width: 1280px; margin: 0 auto; padding: 16px 24px 96px">
+      <dl style="margin: 0; display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); border-top: 1px solid rgba(255,255,255,0.16)">
+        <div style="padding: 32px 24px 0 0; display: flex; flex-direction: column-reverse; gap: 8px">
+          <dt style="font-size: 15px; line-height: 1.5; color: rgba(255,255,255,0.76)">Years delivering IT solutions</dt>
+          <dd style="margin: 0; font-family: 'Bebas Neue', sans-serif; font-size: 88px; line-height: 0.9; color: #21D6EB">20+</dd>
+        </div>
+        <div style="padding: 32px 24px 0 0; display: flex; flex-direction: column-reverse; gap: 8px">
+          <dt style="font-size: 15px; line-height: 1.5; color: rgba(255,255,255,0.76)">Trained IT professionals</dt>
+          <dd style="margin: 0; font-family: 'Bebas Neue', sans-serif; font-size: 88px; line-height: 0.9; color: #21D6EB">1,000+</dd>
+        </div>
+        <div style="padding: 32px 24px 0 0; display: flex; flex-direction: column-reverse; gap: 8px">
+          <dt style="font-size: 15px; line-height: 1.5; color: rgba(255,255,255,0.76)">Integration servers managed</dt>
+          <dd style="margin: 0; font-family: 'Bebas Neue', sans-serif; font-size: 88px; line-height: 0.9; color: #21D6EB">100+</dd>
+        </div>
+        <div style="padding: 32px 24px 0 0; display: flex; flex-direction: column-reverse; gap: 8px">
+          <dt style="font-size: 15px; line-height: 1.5; color: rgba(255,255,255,0.76)">Dedicated developers</dt>
+          <dd style="margin: 0; font-family: 'Bebas Neue', sans-serif; font-size: 88px; line-height: 0.9; color: #21D6EB">30+</dd>
+        </div>
+      </dl>
+    </div>
+  </section>
+
+  <!-- The reality (light) -->
+  <section id="company" style="background: #F3F7F8; color: #063447">
+    <div style="max-width: 1280px; margin: 0 auto; padding: 120px 24px; display: flex; flex-direction: column; gap: 56px">
+      <div style="display: flex; flex-wrap: wrap; gap: 32px 64px; align-items: flex-end">
+        <div style="flex: 1 1 560px; min-width: 0; display: flex; flex-direction: column; gap: 18px">
+          <span style="font-size: 13px; font-weight: 700; letter-spacing: 0.14em; text-transform: uppercase; color: #0B6E7A">The reality</span>
+          <h2 style="margin: 0; font-family: 'Bebas Neue', sans-serif; font-weight: 400; font-size: clamp(52px, 6vw, 88px); line-height: 0.92">Every business has an AI mandate. Few have the foundation.</h2>
+        </div>
+        <p style="flex: 1 1 360px; min-width: 0; margin: 0; font-size: 18px; line-height: 1.65; color: #3D5560">Boards want AI returns. Customers expect more. Your best people are already stretched. Whether technology creates value comes down to delivery: data that's ready, systems that pass review, and people to run them.</p>
+      </div>
+      <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 20px">
+        <article style="background: #FFFFFF; border-radius: 24px; padding: 34px; display: flex; flex-direction: column; gap: 14px">
+          <span style="font-family: 'Bebas Neue', sans-serif; font-size: 40px; line-height: 1; color: #0B6E7A">01</span>
+          <h3 style="margin: 0; font-size: 22px; font-weight: 800; letter-spacing: -0.01em">Data scattered, AI starved</h3>
+          <p style="margin: 0; font-size: 16px; line-height: 1.6; color: #3D5560">Customer, finance and operations data sit in separate systems. Reports disagree, models train on fragments, and nobody trusts the answer.</p>
+        </article>
+        <article style="background: #FFFFFF; border-radius: 24px; padding: 34px; display: flex; flex-direction: column; gap: 14px">
+          <span style="font-family: 'Bebas Neue', sans-serif; font-size: 40px; line-height: 1; color: #0B6E7A">02</span>
+          <h3 style="margin: 0; font-size: 22px; font-weight: 800; letter-spacing: -0.01em">Pilots that never ship</h3>
+          <p style="margin: 0; font-size: 16px; line-height: 1.6; color: #3D5560">Prototypes impress in the demo, then stall at security review, legacy integration or an unclear business case.</p>
+        </article>
+        <article style="background: #FFFFFF; border-radius: 24px; padding: 34px; display: flex; flex-direction: column; gap: 14px">
+          <span style="font-family: 'Bebas Neue', sans-serif; font-size: 40px; line-height: 1; color: #0B6E7A">03</span>
+          <h3 style="margin: 0; font-size: 22px; font-weight: 800; letter-spacing: -0.01em">Demand outpacing headcount</h3>
+          <p style="margin: 0; font-size: 16px; line-height: 1.6; color: #3D5560">The business wants AI features, faster releases and round-the-clock support. Hiring takes months. The backlog doesn't wait.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- How we help (dark) -->
+  <section id="services">
+    <div style="max-width: 1280px; margin: 0 auto; padding: 120px 24px; display: flex; flex-direction: column; gap: 48px">
+      <div style="display: flex; flex-wrap: wrap; justify-content: space-between; align-items: flex-end; gap: 24px">
+        <h2 style="margin: 0; font-family: 'Bebas Neue', sans-serif; font-weight: 400; font-size: clamp(56px, 7vw, 104px); line-height: 0.9">How we help</h2>
+        <a href="services.html" style="display: flex; align-items: center; gap: 8px; color: #FFFFFF; text-decoration: none; font-size: 16px; font-weight: 700; padding: 12px 0">All services<svg width="16" height="16" viewBox="0 0 16 16" aria-hidden="true"><path d="M3 8h10M9 4l4 4-4 4" fill="none" stroke="#21D6EB" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path></svg></a>
+      </div>
+      <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 20px">
+        <article style="background: #0D4A63; border: 1px solid rgba(255,255,255,0.1); border-radius: 24px; padding: 34px; display: flex; flex-direction: column; gap: 22px">
+          <div style="display: flex; flex-direction: column; gap: 10px">
+            <span style="font-size: 13px; font-weight: 700; letter-spacing: 0.14em; text-transform: uppercase; color: #21D6EB">AI &amp; Data</span>
+            <p style="margin: 0; font-size: 16px; line-height: 1.6; color: rgba(255,255,255,0.78)">Governed data foundations and production AI that move the metrics leadership tracks.</p>
+          </div>
+          <ul style="margin: 0; padding: 0; list-style: none; display: flex; flex-direction: column">
+            <li style="border-top: 1px solid rgba(255,255,255,0.14)"><a href="services.html" style="display: flex; justify-content: space-between; padding: 15px 0; color: #FFFFFF; text-decoration: none; font-size: 17px; font-weight: 600">AI Solutions<span aria-hidden="true" style="color: #21D6EB">›</span></a></li>
+            <li style="border-top: 1px solid rgba(255,255,255,0.14)"><a href="service-data-warehousing.html" style="display: flex; justify-content: space-between; padding: 15px 0; color: #FFFFFF; text-decoration: none; font-size: 17px; font-weight: 600">Data Engineering &amp; Warehousing<span aria-hidden="true" style="color: #21D6EB">›</span></a></li>
+            <li style="border-top: 1px solid rgba(255,255,255,0.14)"><a href="service-business-intelligence.html" style="display: flex; justify-content: space-between; padding: 15px 0; color: #FFFFFF; text-decoration: none; font-size: 17px; font-weight: 600">BI &amp; Analytics<span aria-hidden="true" style="color: #21D6EB">›</span></a></li>
+          </ul>
+        </article>
+        <article style="background: #0D4A63; border: 1px solid rgba(255,255,255,0.1); border-radius: 24px; padding: 34px; display: flex; flex-direction: column; gap: 22px">
+          <div style="display: flex; flex-direction: column; gap: 10px">
+            <span style="font-size: 13px; font-weight: 700; letter-spacing: 0.14em; text-transform: uppercase; color: #21D6EB">Applications &amp; Commerce</span>
+            <p style="margin: 0; font-size: 16px; line-height: 1.6; color: rgba(255,255,255,0.78)">Web, mobile and commerce products built for every user — and every ability.</p>
+          </div>
+          <ul style="margin: 0; padding: 0; list-style: none; display: flex; flex-direction: column">
+            <li style="border-top: 1px solid rgba(255,255,255,0.14)"><a href="service-application-development.html" style="display: flex; justify-content: space-between; padding: 15px 0; color: #FFFFFF; text-decoration: none; font-size: 17px; font-weight: 600">Application Development<span aria-hidden="true" style="color: #21D6EB">›</span></a></li>
+            <li style="border-top: 1px solid rgba(255,255,255,0.14)"><a href="service-mobile-applications.html" style="display: flex; justify-content: space-between; padding: 15px 0; color: #FFFFFF; text-decoration: none; font-size: 17px; font-weight: 600">Mobile Applications<span aria-hidden="true" style="color: #21D6EB">›</span></a></li>
+            <li style="border-top: 1px solid rgba(255,255,255,0.14)"><a href="service-ecommerce.html" style="display: flex; justify-content: space-between; padding: 15px 0; color: #FFFFFF; text-decoration: none; font-size: 17px; font-weight: 600">E-Commerce Solutions<span aria-hidden="true" style="color: #21D6EB">›</span></a></li>
+          </ul>
+        </article>
+        <article style="background: #0D4A63; border: 1px solid rgba(255,255,255,0.1); border-radius: 24px; padding: 34px; display: flex; flex-direction: column; gap: 22px">
+          <div style="display: flex; flex-direction: column; gap: 10px">
+            <span style="font-size: 13px; font-weight: 700; letter-spacing: 0.14em; text-transform: uppercase; color: #21D6EB">Infrastructure &amp; Platforms</span>
+            <p style="margin: 0; font-size: 16px; line-height: 1.6; color: rgba(255,255,255,0.78)">Secure networks, storage and integrations engineered for uptime and audit.</p>
+          </div>
+          <ul style="margin: 0; padding: 0; list-style: none; display: flex; flex-direction: column">
+            <li style="border-top: 1px solid rgba(255,255,255,0.14)"><a href="service-networking.html" style="display: flex; justify-content: space-between; padding: 15px 0; color: #FFFFFF; text-decoration: none; font-size: 17px; font-weight: 600">Networking &amp; Security<span aria-hidden="true" style="color: #21D6EB">›</span></a></li>
+            <li style="border-top: 1px solid rgba(255,255,255,0.14)"><a href="service-storage-management.html" style="display: flex; justify-content: space-between; padding: 15px 0; color: #FFFFFF; text-decoration: none; font-size: 17px; font-weight: 600">Storage Management<span aria-hidden="true" style="color: #21D6EB">›</span></a></li>
+            <li style="border-top: 1px solid rgba(255,255,255,0.14)"><a href="services.html" style="display: flex; justify-content: space-between; padding: 15px 0; color: #FFFFFF; text-decoration: none; font-size: 17px; font-weight: 600">Automation &amp; Integration<span aria-hidden="true" style="color: #21D6EB">›</span></a></li>
+          </ul>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- Staffing (light) -->
+  <section id="staffing" style="background: #F3F7F8; color: #063447">
+    <div style="max-width: 1280px; margin: 0 auto; padding: 120px 24px">
+      <div style="background: #FFFFFF; border-radius: 32px; overflow: hidden; display: flex; flex-wrap: wrap">
+        <div style="flex: 1 1 380px; min-width: 0; background: #21D6EB; padding: 48px; display: flex; flex-direction: column; justify-content: space-between; gap: 40px; min-height: 340px">
+          <span style="font-size: 13px; font-weight: 700; letter-spacing: 0.14em; text-transform: uppercase">IT Staffing</span>
+          <span style="font-family: 'Bebas Neue', sans-serif; font-size: clamp(56px, 6vw, 96px); line-height: 0.9">The right people, when you need them.</span>
+        </div>
+        <div style="flex: 1.3 1 480px; min-width: 0; padding: 48px; display: flex; flex-direction: column; gap: 28px">
+          <p style="margin: 0; font-size: 19px; line-height: 1.6; color: #3D5560">Vetted, continuously trained IT professionals who start fast and stay accountable — for a sprint, a release or the long haul.</p>
+          <ul style="margin: 0; padding: 0; list-style: none; display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 20px 28px">
+            <li style="display: flex; flex-direction: column; gap: 6px; border-top: 2px solid #063447; padding-top: 16px"><span style="font-size: 17px; font-weight: 800">Contract &amp; contract-to-hire</span><span style="font-size: 15px; line-height: 1.55; color: #3D5560">Specialists who start fast and fit in.</span></li>
+            <li style="display: flex; flex-direction: column; gap: 6px; border-top: 2px solid #063447; padding-top: 16px"><span style="font-size: 17px; font-weight: 800">Dedicated developers</span><span style="font-size: 15px; line-height: 1.55; color: #3D5560">A committed team that scales with you.</span></li>
+            <li style="display: flex; flex-direction: column; gap: 6px; border-top: 2px solid #063447; padding-top: 16px"><span style="font-size: 17px; font-weight: 800">Offshore delivery</span><span style="font-size: 15px; line-height: 1.55; color: #3D5560">Round-the-clock work from Hyderabad.</span></li>
+            <li style="display: flex; flex-direction: column; gap: 6px; border-top: 2px solid #063447; padding-top: 16px"><span style="font-size: 17px; font-weight: 800">Continuously trained</span><span style="font-size: 15px; line-height: 1.55; color: #3D5560">Ongoing technical training on current stacks.</span></li>
+          </ul>
+          <a href="contact.html" style="align-self: flex-start; display: flex; align-items: center; gap: 10px; background: #063447; color: #FFFFFF; text-decoration: none; font-size: 16px; font-weight: 700; padding: 16px 26px; border-radius: 999px">Request talent<svg width="16" height="16" viewBox="0 0 16 16" aria-hidden="true"><path d="M3 8h10M9 4l4 4-4 4" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path></svg></a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- AI Solutions (dark) -->
+  <section id="ai">
+    <div style="max-width: 1280px; margin: 0 auto; padding: 120px 24px; display: flex; flex-wrap: wrap; gap: 56px">
+      <div style="flex: 1 1 400px; min-width: 0; display: flex; flex-direction: column; gap: 24px">
+        <span style="font-size: 13px; font-weight: 700; letter-spacing: 0.14em; text-transform: uppercase; color: #21D6EB">AI Solutions</span>
+        <h2 style="margin: 0; font-family: 'Bebas Neue', sans-serif; font-weight: 400; font-size: clamp(56px, 6.5vw, 96px); line-height: 0.9">AI that moves from pilot to <span style="color: #21D6EB">production.</span></h2>
+        <p style="margin: 0; font-size: 18px; line-height: 1.65; color: rgba(255,255,255,0.8)">Most AI stalls between the demo and deployment. We close that gap by building on what we know best — clean data, connected systems and secure infrastructure — so every model is governed, measurable and usable by everyone it serves.</p>
+        <ol style="margin: 8px 0 0; padding: 0; list-style: none; display: flex; flex-direction: column; gap: 4px">
+          <li style="display: flex; gap: 16px; padding: 16px 0; border-top: 1px solid rgba(255,255,255,0.14)"><span style="font-family: 'Bebas Neue', sans-serif; font-size: 28px; line-height: 1; color: #21D6EB; width: 32px">01</span><span style="display: flex; flex-direction: column; gap: 4px"><span style="font-size: 18px; font-weight: 800">Assess</span><span style="font-size: 15px; line-height: 1.55; color: rgba(255,255,255,0.76)">Rank use cases by value and data readiness. Agree what success looks like.</span></span></li>
+          <li style="display: flex; gap: 16px; padding: 16px 0; border-top: 1px solid rgba(255,255,255,0.14)"><span style="font-family: 'Bebas Neue', sans-serif; font-size: 28px; line-height: 1; color: #21D6EB; width: 32px">02</span><span style="display: flex; flex-direction: column; gap: 4px"><span style="font-size: 18px; font-weight: 800">Pilot</span><span style="font-size: 15px; line-height: 1.55; color: rgba(255,255,255,0.76)">Prove value on your real data in a focused build, with security in from day one.</span></span></li>
+          <li style="display: flex; gap: 16px; padding: 16px 0; border-top: 1px solid rgba(255,255,255,0.14); border-bottom: 1px solid rgba(255,255,255,0.14)"><span style="font-family: 'Bebas Neue', sans-serif; font-size: 28px; line-height: 1; color: #21D6EB; width: 32px">03</span><span style="display: flex; flex-direction: column; gap: 4px"><span style="font-size: 18px; font-weight: 800">Scale</span><span style="font-size: 15px; line-height: 1.55; color: rgba(255,255,255,0.76)">Run in production with monitoring, access controls and clear ownership.</span></span></li>
+        </ol>
+        <a href="services.html" style="align-self: flex-start; display: flex; align-items: center; gap: 10px; background: #21D6EB; color: #063447; text-decoration: none; font-size: 16px; font-weight: 700; padding: 16px 26px; border-radius: 999px">Explore AI solutions<svg width="16" height="16" viewBox="0 0 16 16" aria-hidden="true"><path d="M3 8h10M9 4l4 4-4 4" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path></svg></a>
+      </div>
+      <div style="flex: 1.2 1 520px; min-width: 0; display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 16px; align-content: start">
+        <article style="background: #0D4A63; border-radius: 22px; padding: 30px; display: flex; flex-direction: column; gap: 14px">
+          <div style="width: 48px; height: 48px; border-radius: 14px; background: rgba(33,214,235,0.16); display: flex; align-items: center; justify-content: center"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#21D6EB" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 3h7l5 5v13H7z"></path><path d="M14 3v5h5M10 13h6M10 17h4"></path></svg></div>
+          <h3 style="margin: 0; font-size: 19px; font-weight: 800">Intelligent document processing</h3>
+          <p style="margin: 0; font-size: 15px; line-height: 1.6; color: rgba(255,255,255,0.78)">Extract, classify and route claims, invoices and records automatically.</p>
+        </article>
+        <article style="background: #0D4A63; border-radius: 22px; padding: 30px; display: flex; flex-direction: column; gap: 14px">
+          <div style="width: 48px; height: 48px; border-radius: 14px; background: rgba(33,214,235,0.16); display: flex; align-items: center; justify-content: center"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#21D6EB" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 19h16"></path><path d="M5 15l4-4 3 3 7-7"></path><path d="M15 7h4v4"></path></svg></div>
+          <h3 style="margin: 0; font-size: 19px; font-weight: 800">Predictive analytics</h3>
+          <p style="margin: 0; font-size: 15px; line-height: 1.6; color: rgba(255,255,255,0.78)">Forecast demand, risk and churn from the data you already have.</p>
+        </article>
+        <article style="background: #0D4A63; border-radius: 22px; padding: 30px; display: flex; flex-direction: column; gap: 14px">
+          <div style="width: 48px; height: 48px; border-radius: 14px; background: rgba(33,214,235,0.16); display: flex; align-items: center; justify-content: center"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#21D6EB" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 5h16v11H9l-5 4z"></path><path d="M8 10h8M8 13h5"></path></svg></div>
+          <h3 style="margin: 0; font-size: 19px; font-weight: 800">AI assistants for teams</h3>
+          <p style="margin: 0; font-size: 15px; line-height: 1.6; color: rgba(255,255,255,0.78)">Secure assistants that answer questions from your own knowledge and systems.</p>
+        </article>
+        <article style="background: #0D4A63; border-radius: 22px; padding: 30px; display: flex; flex-direction: column; gap: 14px">
+          <div style="width: 48px; height: 48px; border-radius: 14px; background: rgba(33,214,235,0.16); display: flex; align-items: center; justify-content: center"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#21D6EB" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="6" cy="6" r="2.5"></circle><circle cx="18" cy="18" r="2.5"></circle><path d="M8.5 6H14a4 4 0 0 1 4 4v5.5M15.5 18H10a4 4 0 0 1-4-4V8.5"></path></svg></div>
+          <h3 style="margin: 0; font-size: 19px; font-weight: 800">Intelligent automation</h3>
+          <p style="margin: 0; font-size: 15px; line-height: 1.6; color: rgba(255,255,255,0.78)">AI-driven workflows across ServiceNow, Boomi and your core systems.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- How we work (light) -->
+  <section style="background: #F3F7F8; color: #063447">
+    <div style="max-width: 1280px; margin: 0 auto; padding: 120px 24px; display: flex; flex-direction: column; gap: 56px">
+      <div style="display: flex; flex-wrap: wrap; gap: 24px 64px; align-items: flex-end">
+        <div style="flex: 1 1 520px; min-width: 0; display: flex; flex-direction: column; gap: 18px">
+          <span style="font-size: 13px; font-weight: 700; letter-spacing: 0.14em; text-transform: uppercase; color: #0B6E7A">How we work</span>
+          <h2 style="margin: 0; font-family: 'Bebas Neue', sans-serif; font-weight: 400; font-size: clamp(52px, 6vw, 88px); line-height: 0.92">One team, from first idea to ongoing support.</h2>
+        </div>
+        <p style="flex: 1 1 340px; min-width: 0; margin: 0; font-size: 18px; line-height: 1.65; color: #3D5560">No long-term contracts. No hand-off at go-live. One accountable team from analysis through support.</p>
+      </div>
+      <ol style="margin: 0; padding: 0; list-style: none; display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 20px">
+        <li style="display: flex; flex-direction: column; gap: 18px">
+          <div style="display: flex; align-items: center; gap: 12px"><span style="width: 44px; height: 44px; flex: none; border-radius: 999px; background: #063447; color: #FFFFFF; display: flex; align-items: center; justify-content: center; font-weight: 800">1</span><span style="flex: 1; height: 2px; background: #C9D5D9"></span></div>
+          <span style="font-family: 'Bebas Neue', sans-serif; font-size: 40px; line-height: 1">Analyze</span>
+          <span style="font-size: 16px; line-height: 1.6; color: #3D5560">Map your data, systems, users and the outcomes that matter.</span>
+        </li>
+        <li style="display: flex; flex-direction: column; gap: 18px">
+          <div style="display: flex; align-items: center; gap: 12px"><span style="width: 44px; height: 44px; flex: none; border-radius: 999px; border: 2px solid #063447; display: flex; align-items: center; justify-content: center; font-weight: 800">2</span><span style="flex: 1; height: 2px; background: #C9D5D9"></span></div>
+          <span style="font-family: 'Bebas Neue', sans-serif; font-size: 40px; line-height: 1">Design</span>
+          <span style="font-size: 16px; line-height: 1.6; color: #3D5560">Architect for scale, security and accessibility from the start.</span>
+        </li>
+        <li style="display: flex; flex-direction: column; gap: 18px">
+          <div style="display: flex; align-items: center; gap: 12px"><span style="width: 44px; height: 44px; flex: none; border-radius: 999px; border: 2px solid #063447; display: flex; align-items: center; justify-content: center; font-weight: 800">3</span><span style="flex: 1; height: 2px; background: #C9D5D9"></span></div>
+          <span style="font-family: 'Bebas Neue', sans-serif; font-size: 40px; line-height: 1">Implement</span>
+          <span style="font-size: 16px; line-height: 1.6; color: #3D5560">Build, integrate and deploy in agile increments you can see.</span>
+        </li>
+        <li style="display: flex; flex-direction: column; gap: 18px">
+          <div style="display: flex; align-items: center; gap: 12px"><span style="width: 44px; height: 44px; flex: none; border-radius: 999px; border: 2px solid #063447; display: flex; align-items: center; justify-content: center; font-weight: 800">4</span></div>
+          <span style="font-family: 'Bebas Neue', sans-serif; font-size: 40px; line-height: 1">Support</span>
+          <span style="font-size: 16px; line-height: 1.6; color: #3D5560">Monitor, maintain and improve — around the clock, across time zones.</span>
+        </li>
+      </ol>
+    </div>
+  </section>
+
+  <!-- We deliver on (dark, white logo tiles) -->
+  <section aria-labelledby="platforms-h">
+    <div style="max-width: 1280px; margin: 0 auto; padding: 104px 24px; display: flex; flex-direction: column; gap: 32px">
+      <div style="display: flex; flex-wrap: wrap; justify-content: space-between; align-items: flex-end; gap: 16px">
+        <h2 id="platforms-h" style="margin: 0; font-family: 'Bebas Neue', sans-serif; font-weight: 400; font-size: clamp(48px, 5vw, 72px); line-height: 0.92">We deliver on</h2>
+        <p style="margin: 0; font-size: 16px; line-height: 1.6; color: rgba(255,255,255,0.8); max-width: 420px">Hands-on delivery across the cloud, data and AI platforms your business already runs on.</p>
+      </div>
+      <ul style="margin: 0; padding: 0; list-style: none; display: grid; grid-template-columns: repeat(auto-fit, minmax(190px, 1fr)); gap: 16px">
+        <li style="height: 112px; background: #FFFFFF; border-radius: 20px; display: flex; align-items: center; justify-content: center; padding: 0 20px"><img src="images/aws.svg" alt="AWS" style="height: 48px; width: auto"></li>
+        <li style="height: 112px; background: #FFFFFF; border-radius: 20px; display: flex; align-items: center; justify-content: center; gap: 12px; padding: 0 20px"><img src="images/azure.svg" alt="" style="height: 36px; width: auto"><span style="font-size: 19px; font-weight: 700; color: #063447">Microsoft Azure</span></li>
+        <li style="height: 112px; background: #FFFFFF; border-radius: 20px; display: flex; align-items: center; justify-content: center; padding: 0 20px"><img src="images/sap.svg" alt="SAP" style="height: 52px; width: auto"></li>
+        <li style="height: 112px; background: #FFFFFF; border-radius: 20px; display: flex; align-items: center; justify-content: center; gap: 12px; padding: 0 20px"><img src="images/oracle.svg" alt="" style="height: 34px; width: auto"><span style="font-size: 19px; font-weight: 800; letter-spacing: 0.06em; color: #C70000">ORACLE</span></li>
+        <li style="height: 112px; background: #FFFFFF; border-radius: 20px; display: flex; align-items: center; justify-content: center; padding: 0 20px"><img src="images/boomi.svg" alt="Boomi" style="height: 44px; width: auto"></li>
+      </ul>
+      <ul style="margin: 0; padding: 0; list-style: none; display: grid; grid-template-columns: repeat(auto-fit, minmax(190px, 1fr)); gap: 16px">
+        <li style="height: 96px; background: #FFFFFF; border-radius: 20px; display: flex; align-items: center; justify-content: center; gap: 10px; padding: 0 20px"><img src="images/claude.svg" alt="" style="height: 32px; width: auto"><span style="font-size: 22px; font-weight: 600; letter-spacing: -0.01em; color: #191919">Claude</span></li>
+        <li style="height: 96px; background: #FFFFFF; border-radius: 20px; display: flex; align-items: center; justify-content: center; padding: 0 20px"><img src="images/servicenow.svg" alt="ServiceNow" style="height: 28px; width: auto"></li>
+        <li style="height: 96px; background: #FFFFFF; border-radius: 20px; display: flex; align-items: center; justify-content: center; padding: 0 20px"><img src="images/ibm.svg" alt="IBM" style="height: 36px; width: auto"></li>
+        <li style="height: 96px; background: #FFFFFF; border-radius: 20px; display: flex; align-items: center; justify-content: center; padding: 0 20px"><img src="images/salesforce.svg" alt="Salesforce" style="height: 52px; width: auto"></li>
+        <li style="height: 96px; background: #FFFFFF; border-radius: 20px; display: flex; align-items: center; justify-content: center; gap: 12px; padding: 0 20px"><img src="images/googlecloud.svg" alt="" style="height: 32px; width: auto"><span style="font-size: 19px; font-weight: 700; color: #3D5560">Google Cloud</span></li>
+      </ul>
+      <div style="display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 16px; padding-top: 8px">
+        <span style="font-size: 15px; color: rgba(255,255,255,0.8)">Technology partners include Boomi, MuleSoft, SnapLogic, Apigee, Software AG and TIBCO.</span>
+        <a href="company.html#partnerships" style="font-size: 15px; font-weight: 800; text-decoration: none; padding: 8px 0">See all partnerships &amp; technologies →</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimonials (light) -->
+  <section style="background: #F3F7F8; color: #063447">
+    <div style="max-width: 1280px; margin: 0 auto; padding: 120px 24px; display: flex; flex-direction: column; gap: 48px">
+      <h2 style="margin: 0; font-family: 'Bebas Neue', sans-serif; font-weight: 400; font-size: clamp(52px, 6vw, 88px); line-height: 0.92; max-width: 820px">What clients say</h2>
+      <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 20px">
+        <figure style="margin: 0; background: #FFFFFF; border-radius: 24px; padding: 40px; display: flex; flex-direction: column; justify-content: space-between; gap: 32px">
+          <svg width="36" height="28" viewBox="0 0 36 28" aria-hidden="true"><path d="M0 28V16C0 7 5 1 14 0v6c-4 1-6 4-6 9h6v13H0zm22 0V16c0-9 5-15 14-16v6c-4 1-6 4-6 9h6v13H22z" fill="#0B6E7A"></path></svg>
+          <blockquote style="margin: 0; font-size: 20px; line-height: 1.55; font-weight: 500">They bring inclusivity to the forefront, making sure all our team members, regardless of ability, can fully use the tools they built. Exceptional service and results.</blockquote>
+          <figcaption style="display: flex; flex-direction: column; gap: 2px"><span style="font-size: 15px; font-weight: 800">CIO</span><span style="font-size: 14px; color: #56676D">Retail Conglomerate</span></figcaption>
+        </figure>
+        <figure style="margin: 0; background: #FFFFFF; border-radius: 24px; padding: 40px; display: flex; flex-direction: column; justify-content: space-between; gap: 32px">
+          <svg width="36" height="28" viewBox="0 0 36 28" aria-hidden="true"><path d="M0 28V16C0 7 5 1 14 0v6c-4 1-6 4-6 9h6v13H0zm22 0V16c0-9 5-15 14-16v6c-4 1-6 4-6 9h6v13H22z" fill="#0B6E7A"></path></svg>
+          <blockquote style="margin: 0; font-size: 20px; line-height: 1.55; font-weight: 500">Thinklusive transformed our app development process. Their agility and expertise made a noticeable impact on our timelines and overall success.</blockquote>
+          <figcaption style="display: flex; flex-direction: column; gap: 2px"><span style="font-size: 15px; font-weight: 800">IT Director</span><span style="font-size: 14px; color: #56676D">Global Bank</span></figcaption>
+        </figure>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA + careers (dark) -->
+  <section id="careers">
+    <div style="max-width: 1280px; margin: 0 auto; padding: 120px 24px; display: flex; flex-wrap: wrap; gap: 20px">
+      <div style="flex: 2 1 560px; min-width: 0; background: #0D4A63; color: #FFFFFF; border-radius: 32px; padding: clamp(36px, 5vw, 64px); display: flex; flex-direction: column; gap: 28px">
+        <h2 style="margin: 0; font-family: 'Bebas Neue', sans-serif; font-weight: 400; font-size: clamp(56px, 7vw, 112px); line-height: 0.88">Ready to think like <span style="color: #21D6EB">Thinklusive?</span></h2>
+        <p style="margin: 0; font-size: 18px; line-height: 1.6; color: rgba(255,255,255,0.8); max-width: 520px">Tell us the outcome you need. Within one business day, we'll come back with a practical plan and the people to deliver it.</p>
+        <a href="contact.html" style="align-self: flex-start; display: flex; align-items: center; gap: 10px; background: #21D6EB; color: #063447; text-decoration: none; font-size: 17px; font-weight: 700; padding: 18px 30px; border-radius: 999px">Let's get to work<svg width="16" height="16" viewBox="0 0 16 16" aria-hidden="true"><path d="M3 8h10M9 4l4 4-4 4" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path></svg></a>
+      </div>
+      <div style="flex: 1 1 320px; min-width: 0; background: #FFFFFF; color: #063447; border-radius: 32px; padding: 44px; display: flex; flex-direction: column; justify-content: space-between; gap: 28px">
+        <div style="display: flex; flex-direction: column; gap: 14px">
+          <span style="font-size: 13px; font-weight: 700; letter-spacing: 0.14em; text-transform: uppercase; color: #0B6E7A">Careers</span>
+          <span style="font-family: 'Bebas Neue', sans-serif; font-size: 52px; line-height: 0.92">Our strength is our people.</span>
+          <span style="font-size: 16px; line-height: 1.6; color: #3D5560">Challenging work, technical training and room to grow. Equal Opportunity Employer.</span>
+        </div>
+        <a href="careers.html" style="align-self: flex-start; color: #063447; text-decoration: none; font-size: 16px; font-weight: 700; padding: 14px 24px; border-radius: 999px; border: 1.5px solid #063447">See open roles</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer (dark) -->
+  <footer style="border-top: 1px solid rgba(255,255,255,0.14)">
+    <div style="max-width: 1280px; margin: 0 auto; padding: 80px 24px 40px; display: flex; flex-direction: column; gap: 56px">
+      <div style="display: flex; flex-wrap: wrap; gap: 40px; justify-content: space-between">
+        <div style="flex: 1 1 260px; display: flex; flex-direction: column; gap: 18px; max-width: 320px">
+          <img src="images/thinklusive-on-dark.svg" alt="Thinklusive" style="height: 40px; width: auto; align-self: flex-start">
+          <span style="font-size: 15px; line-height: 1.6; color: rgba(255,255,255,0.74)">Redefine the future. Think like Thinklusive.</span>
+          <span style="font-size: 15px; line-height: 1.8; color: rgba(255,255,255,0.88)"><a href="tel:7324193704" style="color: inherit; text-decoration: none">732-419-3704</a><br><a href="mailto:info@thinklusive.com" style="color: inherit; text-decoration: none">info@thinklusive.com</a></span>
+        </div>
+        <address style="flex: 0 1 220px; font-style: normal; display: flex; flex-direction: column; gap: 10px">
+          <span style="font-size: 13px; font-weight: 700; letter-spacing: 0.14em; text-transform: uppercase; color: #21D6EB">New Jersey · HQ</span>
+          <span style="font-size: 15px; line-height: 1.6; color: rgba(255,255,255,0.82)">1100 Cornwall Rd, STE 300<br>Monmouth Junction, NJ 08852</span>
+        </address>
+        <address style="flex: 0 1 200px; font-style: normal; display: flex; flex-direction: column; gap: 10px">
+          <span style="font-size: 13px; font-weight: 700; letter-spacing: 0.14em; text-transform: uppercase; color: #21D6EB">Texas</span>
+          <span style="font-size: 15px; line-height: 1.6; color: rgba(255,255,255,0.82)">8950 Gary Burns Dr, Suite A<br>Frisco, TX 75034</span>
+        </address>
+        <address style="flex: 0 1 240px; font-style: normal; display: flex; flex-direction: column; gap: 10px">
+          <span style="font-size: 13px; font-weight: 700; letter-spacing: 0.14em; text-transform: uppercase; color: #21D6EB">Hyderabad</span>
+          <span style="font-size: 15px; line-height: 1.6; color: rgba(255,255,255,0.82)">aVance Business Hub, H-07<br>HITEC City, Telangana 500081</span>
+        </address>
+      </div>
+      <div style="border-top: 1px solid rgba(255,255,255,0.14); padding-top: 24px; display: flex; flex-wrap: wrap; justify-content: space-between; gap: 16px; font-size: 14px; color: rgba(255,255,255,0.7)">
+        <span>© 2026 Thinklusive Inc. All rights reserved.</span>
+        <nav aria-label="Footer" style="display: flex; flex-wrap: wrap; gap: 24px">
+          <a href="services.html" style="color: inherit; text-decoration: none">Services</a>
+          <a href="industries.html" style="color: inherit; text-decoration: none">Industries</a>
+          <a href="staffing.html" style="color: inherit; text-decoration: none">Staffing</a>
+          <a href="company.html" style="color: inherit; text-decoration: none">Company</a>
+          <a href="services.html#resources" style="color: inherit; text-decoration: none">Resources</a>
+          <a href="company.html#faq" style="color: inherit; text-decoration: none">FAQ</a>
+          <a href="careers.html" style="color: inherit; text-decoration: none">Careers</a>
+          <a href="contact.html" style="color: inherit; text-decoration: none">Contact</a>
+        </nav>
+      </div>
+    </div>
+  </footer>
+</div>
+</body>
+</html>
